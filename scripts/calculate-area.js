@@ -11,7 +11,7 @@ function calculateArea(e) {
 
 
     const resultArea = (base * height) / 2;
-    return area.toFixed(2);
+    return resultArea.toFixed(2);
     output.innerText = `Area of a triangle using heron's formula is ${resultArea} units`;
   }
 
