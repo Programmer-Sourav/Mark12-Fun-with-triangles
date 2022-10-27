@@ -1,7 +1,7 @@
 const baseSide = document.querySelector("#base-side");
 const heightSide = document.querySelector("#height-side");
 const calculate = document.querySelector("#calculate-area");
-const output = document.querySelector("#output");
+const output = document.querySelector(".output");
 
 function calculateArea(e) {
   e.preventDefault();
@@ -12,6 +12,7 @@ function calculateArea(e) {
 
     const resultArea = (base * height) / 2;
     return resultArea.toFixed(2);
+  
     output.innerText = `Area of a triangle using heron's formula is ${resultArea} units`;
   }
 
